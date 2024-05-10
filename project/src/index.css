@@ -1,0 +1,14 @@
+.parent{
+  display: flex;
+  justify-content: space-between;
+}
+
+.users-div,.posts-div{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.users-div{
+  border-right: 5px solid black;
+}
